@@ -51,7 +51,7 @@ Probability of an aphasia-like linguistic pattern: <p>%
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/carephasia.git
+git clone https://github.com/AWARKEH1/carephasia.git
 cd carephasia
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
