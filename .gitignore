@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+results/random_forest.joblib
+# AphasiaBank transcripts must never be committed (TalkBank licence)
+data/raw/
+*.cha
