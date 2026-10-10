@@ -1,0 +1,24 @@
+{
+  "decision_tree": {
+    "test_accuracy": 0.806,
+    "test_f1_macro": 0.804,
+    "test_f1_patient": 0.824,
+    "test_f1_control": 0.784,
+    "cv5_f1_macro_mean": 0.811,
+    "cv5_f1_macro_std": 0.047
+  },
+  "random_forest": {
+    "test_accuracy": 0.849,
+    "test_f1_macro": 0.846,
+    "test_f1_patient": 0.866,
+    "test_f1_control": 0.826,
+    "cv5_f1_macro_mean": 0.861,
+    "cv5_f1_macro_std": 0.037,
+    "feature_importance": {
+      "average_tree_depth": 0.451,
+      "average_lexical_density": 0.265,
+      "word_stutter_count": 0.195,
+      "syllable_stutter_ratio": 0.089
+    }
+  }
+}
